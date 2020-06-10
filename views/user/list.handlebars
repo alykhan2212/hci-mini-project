@@ -1,0 +1,50 @@
+<div class="limiter">
+
+    <div class="container-login100">
+      <div class="wrap-input100 validate-input" data-validate = "Required">
+      
+      <span class="login100-form-title">
+      <a href="/user/logout" class=" btn btn-danger" style="width:90px;">logout</a>
+          </span>
+      </div>  
+      <div class="wrap-login100">
+
+        <div class="login100-pic js-tilt" data-tilt>
+          
+        </div>
+
+
+        
+          <span class="login100-form-title">
+            Bookmark list
+          </span>
+
+          <div class="wrap-input100 validate-input" style="text-align:center;">
+            <ul>
+              {{#if res}}
+                
+                    {{{ res}}}
+              {{/if}}
+
+            </ul>
+            
+          </div>
+
+          
+
+          <div class="text-center p-t-12" style="text-align:center;">
+            <a class="txt2" href="/user/add-bookmark">
+            <button type="button" class="btn btn-primary">ADD BOOKMARK</button>
+            </a>
+
+          </div>
+
+          
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  

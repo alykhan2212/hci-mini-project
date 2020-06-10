@@ -1,0 +1,21 @@
+  h1 {
+    color: red;
+    border-bottom: 1px solid blue;
+    font-family: sans-serif;
+  }
+  p {
+    color: lime;
+  }
+  a {
+    color: orange;
+    text-decoration: none;
+    font-style: italic;
+  }
+  img {
+    border: 2px solid red;
+  }
+
+   h2 {
+     color: black;
+     border-bottom: 1px solid black;
+   }

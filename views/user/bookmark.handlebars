@@ -1,0 +1,58 @@
+<div class="limiter">
+    <div class="container-login100">
+          
+          <div class="wrap-input100 validate-input" data-validate = "Required">
+      
+      <span class="login100-form-title">
+      <a href="/user/logout" class=" btn btn-danger" style="width:90px;">logout</a>
+      
+          </span>
+          
+      </div>    
+        <form class="login100-form validate-form" action="/user/add-bookmark" method="post">
+          <span style="color:white" class="login100-form-title">
+            ADD LIST
+          </span>
+          
+          <div class="wrap-input100 validate-input" data-validate = "Required">
+            <input class="input100" type="text" name="title" placeholder="Title">
+            <span class="focus-input100"></span>
+            <span class="symbol-input100">
+              
+            </span>
+          </div>
+          <div class="wrap-input100 validate-input" data-validate = "Required">
+            <input class="input100" type="text" name="link" placeholder="URL">
+            <span class="focus-input100"></span>
+            <span class="symbol-input100">
+              
+            </span>
+          </div>
+          
+          <div class="container-login100-form-btn">
+            {{#if res}}
+      
+        
+          <div class="alert alert-success">{{res}}</div>
+        
+      
+    {{/if}}
+            <button class="login100-form-btn">
+              ADD
+            </button>
+
+
+          </div>
+
+
+          
+          <div class="text-center p-t-12">
+            <a class="txt2" href="/user/bookmark" style="color:white;font-size:14px;">
+               <button type="button" class="btn btn-secondary">view Bookmarks</button>
+
+            </a>
+          </div>
+          </form>          
+    </div>
+
+  </div>
