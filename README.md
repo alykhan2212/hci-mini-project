@@ -1,5 +1,5 @@
 # hci mini project
 
-- Requirements
->node
+- Download and run using node index.js command
 
+> node required to run this app
