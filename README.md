@@ -1,2 +1,5 @@
-# hci-mini-project
- HCI Mini project
+# hci mini project
+
+-Requirements
+>node
+
